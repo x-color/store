@@ -23,10 +23,10 @@ $ store list .path.to
 Remove value
 
 ```sh
-$ store rm .path.to value
+$ store rm .path.to
 ```
 
-## Install 
+## Install
 
 ```sh
 $ go get github.com/x-color/store
