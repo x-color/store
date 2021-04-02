@@ -33,7 +33,7 @@ func runRmCmd(cmd *cobra.Command, args []string) error {
 	}
 
 	if !isLeaf {
-		cmd.Printf("Are you remove %v? It may include some values. [y/n]: ")
+		cmd.Printf("Are you remove %v? It may include some values. [y/n]: ", args[0])
 		var yes string
 		_, err := fmt.Scan(&yes)
 		if err != nil {
