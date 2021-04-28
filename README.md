@@ -29,5 +29,5 @@ $ store rm .path.to
 ## Install
 
 ```sh
-$ go get github.com/x-color/store
+$ go install github.com/x-color/store
 ```
